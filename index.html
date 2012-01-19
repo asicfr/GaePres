@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Google App Engine</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="impress-demo.css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="impress" class="impress-not-supported">
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b> or <b>Safari</b> browser. Firefox 10 (to be released soon) will also handle it.</p>
+    </div>
+
+    <div id="Google App Engine" class="step slide" data-x="-1000" data-y="-3500">
+        <h1>Google App Engine</h1>
+        <pre>
+            Qui l'a d&#233;j&#224; utilis&#233; ?
+            Moi oui ...
+        </pre>
+    </div>
+
+    <div id="A quoi ca sert ?" class="step slide" data-x="0" data-y="-3500">
+		<h1>A quoi ca sert ?</h1>
+        <pre>
+            - Cr&#233;er des applications web
+            - Ne pas se soucier de l'infrastructure
+            - Profiter d'un paas avec les outils qui vont bien
+        </pre>
+    </div>
+
+    <div id="La documentation" class="step slide" data-x="1000" data-y="-3500">
+		<h1>La documentation</h1>
+        <pre>
+            - Un forum
+            - Un blog
+            - Un wiki
+            - Une faq
+            - Des documents et guides
+            - Les sources
+            - Des exemples ...
+            
+            <a target="_blank" href="http://code.google.com/appengine/">http://code.google.com/appengine/</a>
+            
+        </pre>
+    </div>
+
+    <div id="De quoi a t'on besoin pour d&#233;velopper ?" class="step" data-x="0" data-y="-2000" data-scale="2">
+		<h1>De quoi a t'on besoin pour d&#233;velopper ?</h1>
+        <pre>
+            - Un compte Google avec le service app engine
+            - Un ordinateur (mac ou windows)
+            - Un environnement de d&#233;veloppement
+            Update site : 
+            <a target="_blank" href="http://dl.google.com/eclipse/plugin/3.7">http://dl.google.com/eclipse/plugin/3.7</a>
+        </pre>
+    </div>
+
+    <div id="Sur quoi s'appuie t'il ?" class="step" data-x="4000" data-y="9000" data-rotate="90" data-scale="5">
+		<h1>Sur quoi s'appuie t'il ?</h1>
+        <pre>
+            - Une jvm s&#233;curis&#233;e (bac &#224; sable)
+            - Les api servlet
+            - Les jsp
+            - JavaMail
+            - JCache
+        </pre>
+    </div>
+
+    <div id="A quels services a t'on acc&#232;s " class="step" data-x="1000" data-y="4000" data-rotate="180" data-scale="1">
+		<h1>A quels services a t'on acc&#232;s ?</h1>
+        <pre>
+            - Users / Oauth
+            - Datastore
+            - URL Fetch
+            - Images
+            - Taches planifi&#233;es
+            - Task Queues
+            - sans oublier : Blobstore, XMPP, conversion, 
+			  Multitenancy, Prospective Search, 
+        </pre>
+    </div>
+
+    <div id="Administration de App Engine" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <h1>Administration de App Engine</h1>
+        <pre>
+            - Une console d'administration
+            - Gestion des versions
+            - Logs
+            - Acc&#232;s au datastore et indexes
+            - Gestion des taches planifi&#233;es, task queue, 
+			   blob, backend ...
+            
+            https://appengine.google.com/dashboard
+        </pre>
+    </div>
+
+    <div id="Frameworks d&#233;di&#233;s" class="step" data-x="4500" data-y="-850" data-rotate="270" data-scale="6">
+        <h1>Frameworks d&#233;di&#233;s</h1>
+        <pre>
+            - Objectify
+            - Gaelyk
+        </pre>
+    </div>
+
+    <div id="Quelles sont les contraintes de cette plateforme ?" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <h1>Quelles sont les contraintes de cette plateforme ?</h1>
+        <pre>
+            - Toutes les api java ne sont pas disponibles
+                    - Ne peut pas g&#233;n&#233;rer de threads
+                    - Ecrire des donn&#233;es dans le syst&#232;me de fichiers local
+                    - Etablir des connexions r&#233;seau arbitraires
+                    - Utiliser JNI ou un autre code natif
+            - 30 secondes
+
+            Consulter la white list : 
+            <a target="_blank" href="http://code.google.com/p/googleappengine/wiki/WillItPlayInJava">http://code.google.com/p/googleappengine/wiki/WillItPlayInJava</a>
+            
+            Une compatibilit&#233; variable avec les frameworks les plus connus :
+            <a target="_blank" href="http://code.google.com/p/googleappengine/wiki/WillItPlayInJava">http://code.google.com/p/googleappengine/wiki/WillItPlayInJava</a>
+        </pre>
+    </div>
+
+    <div id="Et les tests ?" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <h1>Et les tests ?</h1>
+        <pre>
+            Un environnement local permet de jouer avec l'application en local
+            Il permet aussi d'ex&#233;cuter des tests unitaires
+        </pre>
+    </div>
+
+    <div id="Qu'est-ce qui est gratuit ?" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <h1>Qu'est-ce qui est gratuit ?</h1>
+        <pre>
+            - 10 applications max par compte
+            - 500 Mo d'espace de stockage par appli
+            - Assez de temps processeur et de bande passante pour une diffusion efficace
+            - une consultation mensuelle de 5 millions de pages
+        </pre>
+    </div>
+
+    <div id="Et en payant ?" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <h1>Et en payant ?</h1>
+        <pre>
+            Une scalibilit&#233; infinie
+        </pre>
+    </div>
+
+    <div id="D&#233;mo" class="step" data-x="3000" data-y="1500" data-scale="10">
+		<h1>D&#233;mo</h1>
+        <pre>
+            - D&#233;claration App
+            - Cr&#233;ation projet google
+            - La configuration
+            - D&#233;veloppement hello word
+            - Le d&#233;ploiement a proprement parl&#233;
+        </pre>
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+
+<script src="impress.js"></script>
+
+</body>
+</html>
