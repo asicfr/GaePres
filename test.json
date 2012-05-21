@@ -1,0 +1,51 @@
+{
+    "direction": "ltr",
+    "id": "user/08573671165390576190/state/com.google/broadcast",
+    "title": "Liste de partage de asicfr dans Google Reader",
+    "self": [
+        {
+            "href": "http://www.google.fr/reader/export/json/user/08573671165390576190/state/com.google/broadcast?filename=shared-items.json&n=99999&comments=true&full=true&co=false&hl=fr"
+        }
+    ],
+    "author": "asicfr",
+    "updated": 1320001951,
+    "items": [
+        {
+            "isReadStateLocked": true,
+            "commentInfo": {
+                "user/08573671165390576190/state/com.google/broadcast": {
+                    "permalinkUrl": "https://plus.google.com/106773736261956794981/posts/cxgY6tn1Atw",
+                    "commentState": "VIEWER_CANNOT_COMMENT"
+                }
+            },
+            "crawlTimeMsec": "1320001951173",
+            "timestampUsec": "1320001951173110",
+            "id": "tag:google.com,2005:reader/item/7d4692c443bbceed",
+            "categories": [
+                "user/08573671165390576190/state/com.google/broadcast",
+                "user/08573671165390576190/state/com.google/read",
+                "user/08573671165390576190/state/com.google/broadcast-friends"
+            ],
+            "title": "Sencha.io : la nouvelle plateforme Cloud dédiée au développement...",
+            "published": 1319996721,
+            "updated": 1319996721,
+            "alternate": [
+                {
+                    "href": "http://www.scoop.it/t/node-js/p/602334806/sencha-io-la-nouvelle-plateforme-cloud-dediee-au-developpement",
+                    "type": "text/html"
+                }
+            ],
+            "summary": {
+                "direction": "ltr",
+                "content": "<div style=\"float:left;margin-right:10px;margin-bottom:10px\"><img src=\"http://img.scoop.it/24mccvgtnrQ3cpCkxEpGvDl72eJkfbmt4t8yenImKBUQF1ynBdGblrT_wPcv2AQe\"></div><blockquote> Sencha se lance dans le Cloud Computing avec une offre pour les applications mobiles, dédiée aux développements JavaScript, la spécialité de l&#39;entreprise. « Sencha.io » suit une approche quelque peu différente des offres ...</blockquote><br><br><div><a href=\"http://www.scoop.it/t/node-js/p/602334806/sencha-io-la-nouvelle-plateforme-cloud-dediee-au-developpement\">See it on Scoop.it</a>, via <a href=\"http://www.scoop.it/t/node-js\">Node.js</a></div><div style=\"clear:both\"></div>"
+            },
+            "comments": [],
+            "annotations": [],
+            "origin": {
+                "streamId": "feed/http://www.scoop.it/t/node-js/rss.xml",
+                "title": "Node.js | Scoop.it",
+                "htmlUrl": "http://www.scoop.it/t/node-js"
+            }
+        }
+    ]
+}
